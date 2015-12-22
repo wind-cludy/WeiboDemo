@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+        <Button
+        android:id="@+id/obtain_token_via_signature"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/weibosdk_demo_obtain_token_via_sso_all_in_one" />
+        
+    <Button
+        android:id="@+id/feature_login_logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/weibosdk_demo_feature_login_logout" />
+    
+    <Button
+        android:id="@+id/feature_open_api"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/weibosdk_demo_feature_open_api" />
+    
+
+     
+     
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/weibosdk_demo_token_info" />
+
+    <TextView
+        android:id="@+id/token_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo" />
+
+</LinearLayout>

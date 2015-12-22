@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeiboDemo</string>
+
+    <!-- 功能列表 -->
+   
+    <string name="weibosdk_demo_feature_login_logout">SDKが提供したボタンでログイン</string>
+     <string name="weibosdk_demo_feature_open_api">ユーザー情報を取得</string>
+   
+
+    <!-- 获取 Token -->
+    <string name="weibosdk_demo_obtain_token_via_sso_all_in_one">SSOログイン</string>
+
+    
+    <string name="weibosdk_demo_obtain_token_logout">ログアウト</string>
+    <string name="weibosdk_demo_token_info">Token情報：</string>
+    <string name="weibosdk_demo_token_has_existed">Tokenまだ使えるので、再度ログインが不要です。</string>
+    
+
+    <string name="weibosdk_demo_token_to_string_format">Token：%1$s \nRefresh Token：%2$s \nexpires_in：%3$s</string>
+    <string name="weibosdk_demo_token_to_string_format_1">Token：%1$s \n有効期間：%2$s</string>
+    <string name="weibosdk_demo_toast_auth_success">成功</string>
+    <string name="weibosdk_demo_toast_auth_failed">失敗</string>
+    <string name="weibosdk_demo_toast_auth_canceled">キャセンル</string>
+  
+    <string name="weibosdk_demo_toast_obtain_token_success">Tokenの取得が成功</string>
+    <string name="weibosdk_demo_toast_obtain_token_failed"> Tokenの取得失敗</string>   
+        
+ 
+  
+    <!-- 登录/注销按钮 -->
+    <string name="weibosdk_demo_login_hint"><b>ログイン：</b>\n（SDKが提供しているボタンを使う）</string>
+     
+    <string name="weibosdk_demo_logout">ログアウト</string>
+    <string name="weibosdk_demo_logout_success">ログアウトしました</string>
+    <string name="weibosdk_demo_logout_failed">ログアウトが失敗しました</string>
+    <string name="weibosdk_demo_logout_failed_1">ログアウトが失敗</string>
+    
+
+    <string name="weibosdk_demo_access_token_is_empty">Access Tokenが存在しないので、ログインしてください</string>
+
+    
+   
+</resources>
